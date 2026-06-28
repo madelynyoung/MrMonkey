@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 50px;
+    background: blue;
+    border-bottom: 1px solid #ccc;
+    color : black;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color .2s;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+section {
+    padding: 60px;
+    text-align: center;
+}
